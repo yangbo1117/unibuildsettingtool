@@ -1,0 +1,80 @@
+
+$border-color:#f0f0f0;
+
+.ant-col {
+    margin-bottom: 1rem;
+}
+
+.site-layout-content {
+  background: white;
+  padding: 24px;
+  min-height: 480px;
+
+  .title {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-family: Avenir,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji,sans-serif;
+  }
+
+  .item-title {
+    margin-bottom: 1.1rem;
+    font-weight: 600;
+  }
+}
+
+.ant-layout {
+  .ant-layout-header {
+    padding: 0 1rem;
+    position: relative;
+      
+    .brand {
+      float: left;
+      height: 32px;
+      color: white;
+      margin-right: 1rem;
+  
+      .brand-logo {
+          width: 30px;
+      }
+  
+      .brand-text {
+        margin-left: 0.5rem;
+        display: inline;
+        font-weight: 700;
+        font-size: 1.1rem;
+        vertical-align: middle;
+        letter-spacing: 1px;
+      }
+    }
+    .edition{
+      position: absolute;
+      right: 50px;
+      top: 0px;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+  
+  }
+}
+
+.border-card {
+  border: 1px solid $border-color;
+  padding: 20px 20px;
+  margin-bottom: 1rem;
+}
+
+.ant-input-affix-wrapper .suffixColor {
+  color: rgba(black,.45)
+}
+
+.ant-btn {
+  margin-right: 0.8rem;
+}
+
+.alert {
+  .ant-alert{
+    margin-bottom: 1.5rem;
+  }
+}
+
+
